@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+
+/* This is what I did before - it seems that the order or the code affects to the outcome. Still unsure why this could be an issue.  My code commented below:*/
+/* 
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorded {
+    width: 200px;
+    height: 400px;
+} */
+
+/* I have changed the order of the solution CSS below and it shows the correct outcome. Unsure what the issue. My code looks the case as the solution CSS */
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+  }
+  
+  .avatar.distorted {
+    height: 400px;
+    width: 200px;
+  }
